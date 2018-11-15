@@ -31,7 +31,7 @@ def q2(listNames):
 
 #3. Escreva um programa que receba uma lista de nomes de arquivos como argumentos e imprima
 #i) para cada arquivo, seu nome e o n´umero de linhas contidas no arquivo, e ii) o n´umero total
-#de linhas contidas nos arquivos.
+#de linhas contidas nos arquivos. Teste
 def countLines(arq):
     count = 0
     for lin in open(arq):
